@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>ঈশিতা তোমারে কতো ভালোবাসি তা তুমি জানো না,জানার জন্য নিচে ক্লিক করো</h3>
+
+        <button onclick="love()">Check BMI</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function love() {
+            let loveCount = 0;
+            let result = "";
+            while (loveCount < 100) {
+                result += "I Love you <br>";
+                loveCount++;
+            }
+            document.getElementById("result").innerHTML = result;
+        }
+
+    </script>
+</body>
+
+</html>
