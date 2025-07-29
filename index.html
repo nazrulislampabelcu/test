@@ -4,6 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  color: wheat;
+}
+.main h1 {
+  font-size: 2rem;
+  color: pink;
+}
+.main p {
+  font-size: 2rem;
+  color: #eff4ff;
+}
+    </style>
     <title>Document</title>
 </head>
 
@@ -21,7 +39,7 @@
             let loveCount = 0;
             let result = "";
             while (loveCount < 100) {
-                result += "I Love you <br>";
+                result += "I Love you <br>", loveCount;
                 loveCount++;
             }
             document.getElementById("result").innerHTML = result;
