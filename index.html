@@ -53,11 +53,12 @@
         function love() {
             let loveCount = 0;
             let result = "";
-            while (loveCount < 100) {
+            while (loveCount < 500) {
                 result += "I Love you <br>", loveCount;
                 loveCount++;
             }
-            document.getElementById("result").innerHTML = result;
+            document.getElementById("result").innerHTML = result + "<hr>এই বার খুশি ?";
+            
         }
 
     </script>
